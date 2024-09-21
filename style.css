@@ -1,0 +1,235 @@
+@import url("https://fonts.googleapis.com/css2?family=Young+Serif&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  width: 100%;
+  height: 100%;
+  background: hsl(30, 54%, 90%);
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main {
+  width: 41%;
+  padding: 2.4rem 2.4rem;
+  border-radius: 1.5rem;
+  background: hsl(330, 100%, 98%);
+  margin-top: 10vh;
+  height: fit-content;
+  margin-bottom: 10vh;
+}
+main img {
+  width: 100%;
+  margin: auto;
+  border-radius: 1rem;
+}
+p,
+li {
+  font-size: 1.6rem;
+  color: hsl(30, 10%, 34%);
+  font-family: "Outfit", sans-serif;
+}
+li span {
+  font-size: 1.6rem;
+  font-weight: 800;
+  color: hsl(0, 1%, 43%);
+  font-family: "Outfit";
+}
+h1 {
+  font-size: 3.6rem;
+  font-family: "Young serif", sans-serif;
+  font-weight: 500;
+  color: rgb(39, 38, 38);
+  margin-top: 2.5rem;
+}
+.first-paragraph {
+  margin-top: 2.5rem;
+}
+.the-delicacy {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+.prep-time {
+  background: hsla(332, 45%, 72%, 0.071);
+
+  width: 95%;
+  margin: auto;
+  margin-top: 2.7rem;
+  border-radius: 1rem;
+  padding: 2rem 2rem;
+  height: fit-content;
+}
+.prep-time ul {
+  margin-top: 1.5rem;
+  list-style: none;
+  padding-left: 0;
+  line-height: 3rem;
+}
+.prep-time ul li::before {
+  content: "•";
+  padding-right: 2rem;
+  color: hsl(332, 51%, 32%);
+}
+.prep-time h2 {
+  color: hsl(332, 51%, 32%);
+  font-size: 2rem;
+  font-family: "Outfit", sans-serif;
+}
+.ingredients {
+  width: 95%;
+  margin: auto;
+  border: solid rgba(119, 117, 117, 0.511) 0.01rem;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  height: fit-content;
+  padding-bottom: 2.4rem;
+}
+.ingredients h3 {
+  font-size: 3rem;
+  color: hsl(14, 45%, 36%);
+  font-family: "Young serif", sans-serif;
+  font-weight: 400;
+}
+.ingredients ul {
+  margin-top: 1.5rem;
+  list-style: none;
+  padding-left: 0;
+  line-height: 3rem;
+}
+
+.ingredients ul li::before {
+  content: "•";
+  padding-right: 2rem;
+  color: hsl(14, 45%, 36%);
+}
+.instructions {
+  width: 95%;
+  margin: auto;
+  border: solid rgba(119, 117, 117, 0.511) 0.01rem;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  height: fit-content;
+  padding-bottom: 2.4rem;
+}
+.instructions h3 {
+  font-size: 3rem;
+  color: hsl(14, 45%, 36%);
+  font-family: "Young serif", sans-serif;
+  font-weight: 400;
+}
+.instructions ol {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1.5rem;
+  padding-left: 3rem;
+  text-align: left;
+  list-style-type: none;
+  counter-reset: my-counter;
+  gap: 0.8rem;
+  line-height: 3rem;
+}
+.instructions ol li {
+  counter-increment: my-counter;
+  position: relative;
+}
+ol li::before {
+  content: counter(my-counter) ". ";
+  color: hsl(14, 45%, 36%);
+  position: absolute;
+  font-weight: 700;
+  left: -3rem;
+}
+
+.nutrition {
+  width: 95%;
+  margin: auto;
+  height: fit-content;
+  padding-bottom: 0.4rem;
+}
+.nutrition h3 {
+  font-size: 3rem;
+  color: hsl(14, 45%, 36%);
+  font-family: "Young serif", sans-serif;
+  font-weight: 400;
+}
+.table div {
+  display: flex;
+  border: solid rgba(111, 108, 108, 0.433) 0.01rem;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  margin-top: 2rem;
+  padding-bottom: 1.1rem;
+  gap: 35%;
+}
+.field {
+  font-size: 1.6rem;
+  color: hsl(30, 10%, 34%);
+  font-family: "Outfit", sans-serif;
+  text-indent: 5rem;
+}
+.value {
+  font-size: 1.6rem;
+  font-family: "Outfit", sans-serif;
+  color: hsl(14, 45%, 36%);
+  font-weight: 700;
+}
+.table .last-pair {
+  border: none;
+  gap: 40.5%;
+}
+.table .second {
+  gap: 37.5%;
+}
+.table .third {
+  gap: 36%;
+}
+@media only screen and (min-width: 280px) and (max-width: 800px) {
+  body {
+    width: 100vw;
+    background: none;
+  }
+  main {
+    width: 100%;
+    margin: 0;
+    border-radius: none;
+    padding: 0 0;
+    background: white;
+  }
+  main img {
+    width: 100%;
+    border-radius: 0;
+  }
+  .field {
+    text-indent: 3rem;
+  }
+  .prep-time {
+    width: 80%;
+  }
+  main h1,
+  .first-paragraph,
+  .the-delicacy {
+    padding: 2.5rem;
+  }
+  .table .last-pair {
+    gap: 45%;
+  }
+  .table .second {
+    gap: 40%;
+  }
+  .table .third {
+    gap: 36%;
+  }
+}
