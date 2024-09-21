@@ -24,8 +24,8 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://github.com/qahsishaq/recipe-page-main)
+- Live Site URL: [Add live site URL here](https://recipe-page-main-ishaq-ishaqs-projects.vercel.app/)
 
 ## My process
 I spent longer than I expected on this project because I tried using bootstrap at first and I was unsuccessful owing to the predefined colours in bootstrap. I tried to override those colours but I got stuck! I ended up using purely HTML and CSS. Don't worry I'll still use bootstrap in my future projects.  
@@ -37,6 +37,6 @@ Although I didn't use the table tag and other related tags, I improvised by crea
 I'd love to see other peoples' approach to creating that table
 ## Author
 
-- Website - [qahsishaq](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Website - [qahsishaq](https://recipe-page-main-ishaq-ishaqs-projects.vercel.app/)
+- Frontend Mentor - [@qahsishaq](https://www.frontendmentor.io/profile/qahsishaq)
+- Twitter - [@qahs_I_I_shaq](https://x.com/qahs_I_I_shaq)
